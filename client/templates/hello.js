@@ -12,6 +12,7 @@ Template.hello.onRendered(function() {
 
    Thanks Materialize!
    */
+  $(".parallax").parallax();
 });
 
 Template.hello.helpers({

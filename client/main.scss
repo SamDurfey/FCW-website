@@ -1,0 +1,21 @@
+body {
+  background-color: #591c0e;
+  * {
+    margin-left: 20px;
+  }
+}
+
+#main-wrapper {
+  h6, h1, h2 {
+    color: white;
+  }
+}
+
+.parallax-container {
+  margin-top: 20px;
+}
+
+#fillerDiv p {
+  color: white;
+  max-width: 40px;
+}
