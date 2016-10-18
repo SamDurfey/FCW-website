@@ -2,13 +2,13 @@
 
 body {
   background-color: #591c0e;
-  * {
-    margin-left: 20px;
-  }
 }
 
 #main-wrapper {
-  h6, h1, h2 {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  h1, h2, h3, h4, h5, h6 {
     color: white;
   }
 }
@@ -20,4 +20,13 @@ body {
 .fillerDiv p {
   color: white;
   max-width: 40px;
+}
+
+.footer-title {
+  text-align: center;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
 }
