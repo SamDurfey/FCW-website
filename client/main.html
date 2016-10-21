@@ -5,10 +5,14 @@
 <body></body>
 
 <template name="main">
-  <div id="main-wrapper">
+  <div id="banner">
     <h6>(This Is The Banner)</h6>
     <h1>Welcome to First City Wellness</h1>
-    <!-- this be navbar shenanigans -->
+  </div>
+
+  {{> nav}}
+
+    <div id="main-wrapper">
 
     {{> yield}}
 

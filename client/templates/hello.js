@@ -1,3 +1,4 @@
+// TODO: figure out if you need to be using spacebars.
 Template.hello.onCreated(function() {
   // counter starts at 0
   // this.counter = new ReactiveVar(0);
@@ -12,7 +13,7 @@ Template.hello.onRendered(function() {
 
    Thanks Materialize!
    */
-  $(".parallax").parallax();
+  $('.parallax').parallax();
 });
 
 Template.hello.helpers({
