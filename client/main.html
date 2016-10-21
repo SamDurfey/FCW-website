@@ -2,13 +2,16 @@
   <title>FirstCityWellness</title>
 </head>
 
-<body>
+<body></body>
+
+<template name="main">
   <div id="main-wrapper">
     <h6>(This Is The Banner)</h6>
     <h1>Welcome to First City Wellness</h1>
+    <!-- this be navbar shenanigans -->
 
+    {{> yield}}
 
-    {{> hello}}
     {{> footer}}
   </div>
-</body>
+</template>
