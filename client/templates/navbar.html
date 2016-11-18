@@ -1,10 +1,20 @@
 <template name="nav">
   <!--TODO: figure out fixed navbar on scroll past banner.-->
+
+  <ul id="services-dropdown" class="dropdown-content">
+    <li><a href="#">Accupuncture & Chinese Medicine</a></li>
+    <li><a href="#">Walk-In Clinics</a></li>
+    <li><a href="#">Beautypunture&reg; Facial Rejuvenation</a></li>
+    <li><a href="#">Custom Cosmetics and Makeup Artistry</a></li>
+    <li><a href="#">TLS Weight Loss Solution</a></li>
+    <li><a href="#">Ionic Detox Foot Baths</a></li>
+  </ul>
   <nav>
     <div class="nav-wrapper">
       <ul class="left hide-on-med-and-down">
         <li><a href="/">Home</a></li>
-        <li><a href="/services">Services Available</a></li>
+        <li><a class="dropdown-button" href="/services" data-activates="services-dropdown">Services
+          Available</a></li>
         <li><a href="/center">Our Center</a></li>
         <li><a href="/boutique">Wellness Boutique</a></li>
         <li><a href="/appointments">Appointments</a></li>
