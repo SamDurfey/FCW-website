@@ -23,4 +23,4 @@ insecure@1.0.7                # Allow all DB writes from clients (for prototypin
 meteor@1.6.0
 fourseven:scss
 iron:router
-materialize:materialize@=0.97.7
+materialize:materialize@=0.97.0
